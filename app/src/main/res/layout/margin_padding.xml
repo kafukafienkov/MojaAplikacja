@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kliknij"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="75dp"
+        android:paddingLeft="50dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kliknij 2"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="45dp"
+        android:paddingLeft="50dp"
+        android:background="@android:color/holo_green_light"
+        />
+
+</LinearLayout>

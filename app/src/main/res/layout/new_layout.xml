@@ -7,13 +7,21 @@
     android:weightSum="1">
 
     <TextView
+        android:id="@+id/my_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Some text"
         android:textSize="75sp"
         android:textColor="@android:color/holo_red_dark"
         android:background="@android:color/holo_orange_light"
-
         android:layout_weight="0.09" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My button"
+        android:onClick="buttonAction"
+
+        />
 
 </LinearLayout>
